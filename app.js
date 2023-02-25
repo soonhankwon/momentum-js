@@ -1,10 +1,19 @@
-const player = {
-    name: "soonhan",
-    sayHello: function(otherPersonsName) {
-        console.log("Hello " + otherPersonsName + " What's up");
+const calculator = {
+    add: function(a,b) {
+        console.log(a+b);
+    },
+    minus: function(a,b) {
+        console.log(a-b);
+    },
+    divide: function(a,b) {
+        console.log(a/b);
+    },
+    multiply: function(a,b){
+        console.log(a*b);
+    },
+    pow: function(a,b) {
+        console.log(a**b);
     }
 };
 
-console.log(player.name);
-player.sayHello("kyuri");
-player.sayHello("soonhan");
+calculator.pow(2,8);
